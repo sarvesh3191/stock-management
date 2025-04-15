@@ -1,6 +1,5 @@
 import HomeRedirector from "@/components/utils/HomeRedirector";
-import Home from "./home/page";
 
-const Page = () => <Home />;
+const page = () => <HomeRedirector />;
 
-export default Page;
+export default page;
